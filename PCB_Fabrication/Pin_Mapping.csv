@@ -1,0 +1,172 @@
+Reference,Pin,Library_pin_name,Electrical_type,Schematic_X_mm,Schematic_Y_mm,Net,Source_footprint,Notes
+J1,1,Pin_1,passive,33.02,30.48,5V_IN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"5V +/-5%, current-limited source >=1A required; not presently available"
+J1,2,Pin_2,passive,33.02,33.02,GND,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"5V +/-5%, current-limited source >=1A required; not presently available"
+Q1,1,G,input,88.9,30.48,GND,Package_TO_SOT_SMD:SOT-23,"Candidate reverse-polarity MOSFET: G1 S2 D3; drain input, source output. Does not block reverse current from another supply."
+Q1,2,S,passive,96.52,35.56,5V_PROT,Package_TO_SOT_SMD:SOT-23,"Candidate reverse-polarity MOSFET: G1 S2 D3; drain input, source output. Does not block reverse current from another supply."
+Q1,3,D,passive,96.52,25.4,5V_IN,Package_TO_SOT_SMD:SOT-23,"Candidate reverse-polarity MOSFET: G1 S2 D3; drain input, source output. Does not block reverse current from another supply."
+C1,1,,passive,149.86,26.67,5V_PROT,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+C1,2,,passive,149.86,34.29,GND,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+C2,1,,passive,205.74,26.67,5V_SYS,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C2,2,,passive,205.74,34.29,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+U1,1,GND,power_in,261.62,22.86,GND,Package_TO_SOT_THT:TO-92_Inline_Wide,New candidate AUX-only LDO; 150mA design ceiling pending final loads and thermal validation
+U1,2,VI,power_in,254.0,30.48,5V_SYS,Package_TO_SOT_THT:TO-92_Inline_Wide,New candidate AUX-only LDO; 150mA design ceiling pending final loads and thermal validation
+U1,3,VO,power_out,269.24,30.48,3V3_AUX,Package_TO_SOT_THT:TO-92_Inline_Wide,New candidate AUX-only LDO; 150mA design ceiling pending final loads and thermal validation
+C3,1,,passive,318.77,26.67,3V3_AUX,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C3,2,,passive,318.77,34.29,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C4,1,,passive,374.65,26.67,3V3_AUX,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+C4,2,,passive,374.65,34.29,GND,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+JP1,1,Pin_1,passive,425.45,30.48,5V_PROT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Fit only after identifying Blue Pill regulator. No USB or ST-LINK power while connected.
+JP1,2,Pin_2,passive,425.45,33.02,5V_SYS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Fit only after identifying Blue Pill regulator. No USB or ST-LINK power while connected.
+C5,1,,passive,486.41,26.67,3V3_BP,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C5,2,,passive,486.41,34.29,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+J2,1,Pin_1,passive,33.02,64.77,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,2,Pin_2,passive,33.02,67.31,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,3,Pin_3,passive,33.02,69.85,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,4,Pin_4,passive,33.02,72.39,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,5,Pin_5,passive,33.02,74.93,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,6,Pin_6,passive,33.02,77.47,REED_PA1,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,7,Pin_7,passive,33.02,80.01,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,8,Pin_8,passive,33.02,82.55,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,9,Pin_9,passive,33.02,85.09,SD_CS_PA4,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,10,Pin_10,passive,33.02,87.63,SD_SCK_PA5,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,11,Pin_11,passive,33.02,90.17,SD_MISO_PA6,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,12,Pin_12,passive,33.02,92.71,SD_MOSI_PA7,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,13,Pin_13,passive,33.02,95.25,BUZZER_PB0,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,14,Pin_14,passive,33.02,97.79,GREEN_PB1,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,15,Pin_15,passive,33.02,100.33,BLUE_PB10,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,16,Pin_16,passive,33.02,102.87,RED_PB11,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,17,Pin_17,passive,33.02,105.41,NRST,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,18,Pin_18,passive,33.02,107.95,3V3_BP,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,19,Pin_19,passive,33.02,110.49,GND,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J2,20,Pin_20,passive,33.02,113.03,GND,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J3,1,Pin_1,passive,88.9,64.77,3V3_BP,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,2,Pin_2,passive,88.9,67.31,GND,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,3,Pin_3,passive,88.9,69.85,5V_SYS,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,4,Pin_4,passive,88.9,72.39,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,5,Pin_5,passive,88.9,74.93,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,6,Pin_6,passive,88.9,77.47,I2C_SDA_PB7,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,7,Pin_7,passive,88.9,80.01,I2C_SCL_PB6,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,8,Pin_8,passive,88.9,82.55,DHT_PB5,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,9,Pin_9,passive,88.9,85.09,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,10,Pin_10,passive,88.9,87.63,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,11,Pin_11,passive,88.9,90.17,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,12,Pin_12,passive,88.9,92.71,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,13,Pin_13,passive,88.9,95.25,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,14,Pin_14,passive,88.9,97.79,GPS_TX_PA10,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,15,Pin_15,passive,88.9,100.33,GPS_RX_PA9,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,16,Pin_16,passive,88.9,102.87,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,17,Pin_17,passive,88.9,105.41,NC,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,18,Pin_18,passive,88.9,107.95,BUTTON2_PB14,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,19,Pin_19,passive,88.9,110.49,BUTTON1_PB13,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J3,20,Pin_20,passive,88.9,113.03,SW420_PB12,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J4,1,Pin_1,passive,144.78,82.55,MPU_VCC,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Harness 1=VCC,2=GND,3=SCL,4=SDA,5=AD0. AD0=MPU_VCC (candidate 3.3V). Verify actual MPU core/VLOGIC before enabling. No plug-in footprint claimed."
+J4,2,Pin_2,passive,144.78,85.09,GND,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Harness 1=VCC,2=GND,3=SCL,4=SDA,5=AD0. AD0=MPU_VCC (candidate 3.3V). Verify actual MPU core/VLOGIC before enabling. No plug-in footprint claimed."
+J4,3,Pin_3,passive,144.78,87.63,I2C_SCL_PB6,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Harness 1=VCC,2=GND,3=SCL,4=SDA,5=AD0. AD0=MPU_VCC (candidate 3.3V). Verify actual MPU core/VLOGIC before enabling. No plug-in footprint claimed."
+J4,4,Pin_4,passive,144.78,90.17,I2C_SDA_PB7,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Harness 1=VCC,2=GND,3=SCL,4=SDA,5=AD0. AD0=MPU_VCC (candidate 3.3V). Verify actual MPU core/VLOGIC before enabling. No plug-in footprint claimed."
+J4,5,Pin_5,passive,144.78,92.71,MPU_VCC,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Harness 1=VCC,2=GND,3=SCL,4=SDA,5=AD0. AD0=MPU_VCC (candidate 3.3V). Verify actual MPU core/VLOGIC before enabling. No plug-in footprint claimed."
+JP2,1,Pin_1,passive,200.66,87.63,3V3_AUX,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP2,2,Pin_2,passive,200.66,90.17,MPU_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+C6,1,,passive,261.62,83.82,MPU_VCC,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C6,2,,passive,261.62,91.44,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+J5,1,Pin_1,passive,313.69,85.09,RTC_VCC,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Remove/disable any battery charger before a CR2032 is fitted. Verify onboard I2C pullups and battery holder underside clearance.
+J5,2,Pin_2,passive,313.69,87.63,GND,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Remove/disable any battery charger before a CR2032 is fitted. Verify onboard I2C pullups and battery holder underside clearance.
+J5,3,Pin_3,passive,313.69,90.17,I2C_SCL_PB6,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Remove/disable any battery charger before a CR2032 is fitted. Verify onboard I2C pullups and battery holder underside clearance.
+J5,4,Pin_4,passive,313.69,92.71,I2C_SDA_PB7,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Remove/disable any battery charger before a CR2032 is fitted. Verify onboard I2C pullups and battery holder underside clearance.
+JP3,1,Pin_1,passive,369.57,87.63,3V3_AUX,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP3,2,Pin_2,passive,369.57,90.17,RTC_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+C7,1,,passive,430.53,83.82,RTC_VCC,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C7,2,,passive,430.53,91.44,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+R1,1,,passive,486.41,83.82,3V3_AUX,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Populate only if combined module pullups require it
+R1,2,,passive,486.41,91.44,I2C_SCL_PB6,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Populate only if combined module pullups require it
+R2,1,,passive,38.1,143.51,3V3_AUX,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R2,2,,passive,38.1,151.13,I2C_SDA_PB7,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+J6,1,Pin_1,passive,88.9,144.78,DHT_VCC,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,3-pin module; verify actual pin order. 3.3V operation and module pullup destination pending.
+J6,2,Pin_2,passive,88.9,147.32,GND,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,3-pin module; verify actual pin order. 3.3V operation and module pullup destination pending.
+J6,3,Pin_3,passive,88.9,149.86,DHT_PB5,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,3-pin module; verify actual pin order. 3.3V operation and module pullup destination pending.
+JP4,1,Pin_1,passive,144.78,147.32,3V3_AUX,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP4,2,Pin_2,passive,144.78,149.86,DHT_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+R3,1,,passive,205.74,143.51,DHT_VCC,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R3,2,,passive,205.74,151.13,DHT_PB5,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+C8,1,,passive,261.62,143.51,DHT_VCC,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C8,2,,passive,261.62,151.13,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+J7,1,Pin_1,passive,313.69,144.78,GPS_VCC,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,3=GPS TX to MCU RX;4=GPS RX from MCU TX. 5V applies only if actual BREAKOUT input regulator is verified; never bare NEO-6M VCC.
+J7,2,Pin_2,passive,313.69,147.32,GND,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,3=GPS TX to MCU RX;4=GPS RX from MCU TX. 5V applies only if actual BREAKOUT input regulator is verified; never bare NEO-6M VCC.
+J7,3,Pin_3,passive,313.69,149.86,GPS_TX_PA10,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,3=GPS TX to MCU RX;4=GPS RX from MCU TX. 5V applies only if actual BREAKOUT input regulator is verified; never bare NEO-6M VCC.
+J7,4,Pin_4,passive,313.69,152.4,GPS_RX_PA9,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,3=GPS TX to MCU RX;4=GPS RX from MCU TX. 5V applies only if actual BREAKOUT input regulator is verified; never bare NEO-6M VCC.
+JP5,1,Pin_1,passive,369.57,147.32,5V_SYS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP5,2,Pin_2,passive,369.57,149.86,GPS_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+C9,1,,passive,430.53,143.51,GPS_VCC,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C9,2,,passive,430.53,151.13,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+J8,1,Pin_1,passive,481.33,142.24,SD_VCC,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.
+J8,2,Pin_2,passive,481.33,144.78,GND,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.
+J8,3,Pin_3,passive,481.33,147.32,SD_CS_PA4,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.
+J8,4,Pin_4,passive,481.33,149.86,SD_SCK_PA5,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.
+J8,5,Pin_5,passive,481.33,152.4,SD_MISO_PA6,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.
+J8,6,Pin_6,passive,481.33,154.94,SD_MOSI_PA7,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.
+JP6,1,Pin_1,passive,33.02,203.2,5V_SYS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP6,2,Pin_2,passive,33.02,205.74,SD_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+C10,1,,passive,93.98,199.39,SD_VCC,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C10,2,,passive,93.98,207.01,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C11,1,,passive,149.86,199.39,SD_VCC,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+C11,2,,passive,149.86,207.01,GND,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+R4,1,,passive,205.74,199.39,3V3_BP,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R4,2,,passive,205.74,207.01,SD_CS_PA4,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+J9,1,Pin_1,passive,256.54,200.66,SW420_VCC,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,PB12 is proposed only; firmware previously PB15. Verify comparator operation and output pullup at 3.3V.
+J9,2,Pin_2,passive,256.54,203.2,GND,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,PB12 is proposed only; firmware previously PB15. Verify comparator operation and output pullup at 3.3V.
+J9,3,Pin_3,passive,256.54,205.74,SW420_PB12,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,PB12 is proposed only; firmware previously PB15. Verify comparator operation and output pullup at 3.3V.
+JP7,1,Pin_1,passive,313.69,203.2,3V3_AUX,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP7,2,Pin_2,passive,313.69,205.74,SW420_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+C12,1,,passive,374.65,199.39,SW420_VCC,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+C12,2,,passive,374.65,207.01,GND,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,
+J10,1,Pin_1,passive,425.45,203.2,REED_PA1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J10,2,Pin_2,passive,425.45,205.74,GND,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J11,1,Pin_1,passive,481.33,203.2,BUTTON1_PB13,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J11,2,Pin_2,passive,481.33,205.74,GND,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J12,1,Pin_1,passive,33.02,259.08,BUTTON2_PB14,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J12,2,Pin_2,passive,33.02,261.62,GND,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+R5,1,,passive,93.98,255.27,3V3_BP,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R5,2,,passive,93.98,262.89,REED_PA1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R6,1,,passive,149.86,255.27,3V3_BP,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R6,2,,passive,149.86,262.89,BUTTON1_PB13,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R7,1,,passive,205.74,255.27,3V3_BP,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R7,2,,passive,205.74,262.89,BUTTON2_PB14,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R8,1,,passive,261.62,255.27,GREEN_PB1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R8,2,,passive,261.62,262.89,LED_GREEN_A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+D1,1,K,passive,426.72,259.08,GND,LED_THT:LED_D3.0mm,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+D1,2,A,passive,434.34,259.08,LED_GREEN_A,LED_THT:LED_D3.0mm,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+R9,1,,passive,318.77,255.27,BLUE_PB10,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R9,2,,passive,318.77,262.89,LED_BLUE_A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+D2,1,K,passive,482.6,259.08,GND,LED_THT:LED_D3.0mm,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+D2,2,A,passive,490.22,259.08,LED_BLUE_A,LED_THT:LED_D3.0mm,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+R10,1,,passive,374.65,255.27,RED_PB11,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R10,2,,passive,374.65,262.89,LED_RED_A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+D3,1,K,passive,34.29,314.96,GND,LED_THT:LED_D3.0mm,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+D3,2,A,passive,41.91,314.96,LED_RED_A,LED_THT:LED_D3.0mm,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+R11,1,,passive,93.98,311.15,BUZZER_PB0,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R11,2,,passive,93.98,318.77,BUZZER_BASE,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R12,1,,passive,149.86,311.15,BUZZER_BASE,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+R12,2,,passive,149.86,318.77,GND,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+Q2,1,C,passive,208.28,309.88,BUZZER_LOW,Package_TO_SOT_THT:TO-92_Inline_Wide,"Candidate onsemi P2N2222AG C1 B2 E3, not arbitrary 2N2222 substitute. Proposed load <=20mA, verify actual buzzer before fitting link."
+Q2,2,B,input,200.66,314.96,BUZZER_BASE,Package_TO_SOT_THT:TO-92_Inline_Wide,"Candidate onsemi P2N2222AG C1 B2 E3, not arbitrary 2N2222 substitute. Proposed load <=20mA, verify actual buzzer before fitting link."
+Q2,3,E,passive,208.28,320.04,GND,Package_TO_SOT_THT:TO-92_Inline_Wide,"Candidate onsemi P2N2222AG C1 B2 E3, not arbitrary 2N2222 substitute. Proposed load <=20mA, verify actual buzzer before fitting link."
+J13,1,Pin_1,passive,256.54,314.96,BUZZER_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J13,2,Pin_2,passive,256.54,317.5,BUZZER_LOW,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP8,1,Pin_1,passive,313.69,314.96,5V_SYS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+JP8,2,Pin_2,passive,313.69,317.5,BUZZER_VCC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+D4,1,K,passive,370.84,314.96,BUZZER_VCC,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,Flyback cathode pin1 to + buzzer supply. Validate acoustic behavior for passive buzzer.
+D4,2,A,passive,378.46,314.96,BUZZER_LOW,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,Flyback cathode pin1 to + buzzer supply. Validate acoustic behavior for passive buzzer.
+J14,1,Pin_1,passive,425.45,312.42,SWDIO_PA13,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Short cable to existing separate Blue Pill SWD header. Carrier order is NOT Blue Pill 4-pin order. Do not wire its 3.3V power pin.
+J14,2,Pin_2,passive,425.45,314.96,SWCLK_PA14,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Short cable to existing separate Blue Pill SWD header. Carrier order is NOT Blue Pill 4-pin order. Do not wire its 3.3V power pin.
+J14,3,Pin_3,passive,425.45,317.5,GND,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Short cable to existing separate Blue Pill SWD header. Carrier order is NOT Blue Pill 4-pin order. Do not wire its 3.3V power pin.
+J15,1,Pin_1,passive,481.33,312.42,SWDIO_PA13,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,No programmer power. Power target externally before connecting signals. Identify debugger model.
+J15,2,Pin_2,passive,481.33,314.96,SWCLK_PA14,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,No programmer power. Power target externally before connecting signals. Identify debugger model.
+J15,3,Pin_3,passive,481.33,317.5,GND,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,No programmer power. Power target externally before connecting signals. Identify debugger model.
+J15,4,Pin_4,passive,481.33,320.04,NRST,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,No programmer power. Power target externally before connecting signals. Identify debugger model.
+J16,1,Pin_1,passive,33.02,370.84,3V3_BP,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,For verified genuine debugger VTref input only. Never connect clone 3.3V output. Leave unpopulated by default.
+J16,2,Pin_2,passive,33.02,373.38,GND,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,For verified genuine debugger VTref input only. Never connect clone 3.3V output. Leave unpopulated by default.
+TP1,1,1,passive,93.98,370.84,GND,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,
+TP2,1,1,passive,149.86,370.84,5V_PROT,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,
+TP3,1,1,passive,205.74,370.84,3V3_AUX,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,
+TP4,1,1,passive,261.62,370.84,3V3_BP,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,
+#FLG01,1,,power_out,528.32,30.48,5V_SYS,,"Source declaration for ERC only, not hardware validation."
+#FLG02,1,,power_out,528.32,59.69,GND,,"Source declaration for ERC only, not hardware validation."

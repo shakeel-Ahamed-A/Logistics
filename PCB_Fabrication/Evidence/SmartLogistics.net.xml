@@ -1,0 +1,2184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Logistics\PCB_Fabrication\SmartLogistics.kicad_sch</source>
+    <date>2026-10-17T07:41:29</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Smart Logistics - PROVISIONAL / DO NOT FABRICATE</title>
+        <company>Blue Pill carrier - module identities and mechanics pending</company>
+        <rev>P0</rev>
+        <date>2026-10-16</date>
+        <source>SmartLogistics.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100u 10V</value>
+      <footprint>Carrier:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52fb3eae-6841-5e96-91dc-d45971bba870</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1u X7R 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4d41733-5b9d-5a4c-99b9-3b300391c8e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1u X7R 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8e2db4d-1c2f-5b91-b294-0dac86340175</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10u 10V</value>
+      <footprint>Carrier:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>176d8b6d-5af6-5565-bcb4-6fe76edd4740</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100n 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8f166d8-a6dc-52ef-b40d-904da4aff40a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100n 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>207ee026-50c9-576f-b6c3-1a8bfbf3d1bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100n 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b3ab13a-af86-5349-b262-295fcfc2f370</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100n 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4df1a8d2-4ea9-565d-b08f-ad4d91f5f43b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100n 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de2d8067-0aaf-51bf-9e72-6c5d09b03a26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100n 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97344213-51f5-5df5-912a-e1b97507284e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100u 10V</value>
+      <footprint>Carrier:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1799b9f-0914-522b-8c43-57137525ffb6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100n 10V</value>
+      <footprint>Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e2bc923-5d15-5770-93ed-ac70cd3f7444</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>GREEN</value>
+      <footprint>Carrier:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:LED_D3.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ac76bc0-d347-5807-9ca7-9f8b5b1bf012</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>BLUE</value>
+      <footprint>Carrier:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:LED_D3.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbc4db80-d2a8-5a28-b47d-7cfc4bc81969</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>Carrier:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:LED_D3.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b64c1c3-a699-5151-ba30-e3188e1579aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>1N4007</value>
+      <footprint>Carrier:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__D" description="Diode"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5344167-88ed-53fd-a4c6-945381f00cd6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3 3.2mm</value>
+      <footprint>Carrier:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">Carrier:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Mechanical__MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdad11bf-5c70-50b1-8c1f-edcb857db0ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3 3.2mm</value>
+      <footprint>Carrier:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">Carrier:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Mechanical__MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8a3dcab-f2d5-56b8-9dc3-7a1812348fc2</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3 3.2mm</value>
+      <footprint>Carrier:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">Carrier:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Mechanical__MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b20a6fbf-6f17-50b4-b829-0085e3ba8772</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3 3.2mm</value>
+      <footprint>Carrier:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">Carrier:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Mechanical__MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38ec6393-4090-54a3-98ff-4cba744a17de</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>REGULATED 5V INPUT</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb51f10e-d669-540d-8dc8-d1635daab6c4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>BLUE PILL H1 - NOMINAL</value>
+      <footprint>Carrier:PinSocket_1x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinSocket_1x20_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x20" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a371579-9798-5ea3-aa35-cd27cb8a3aef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>BLUE PILL H2 - NOMINAL</value>
+      <footprint>Carrier:PinSocket_1x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinSocket_1x20_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x20" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36299d6e-a9ce-524d-ba92-09b91cf1352a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>MPU HARNESS - VERIFY</value>
+      <footprint>Carrier:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>457fc464-b6cb-51b1-b6a7-79bbd3d86a97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>RTC HARNESS - VERIFY</value>
+      <footprint>Carrier:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afef1fdf-5836-5fbe-bfb8-fa3f7573e236</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>DHT11 HARNESS - VERIFY</value>
+      <footprint>Carrier:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cce6fd5e-452f-58ec-bf14-be130852261b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>GPS HARNESS - VERIFY</value>
+      <footprint>Carrier:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c70d2da-6136-5e56-8426-27ea3c725ca1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>SD HARNESS - VERIFY</value>
+      <footprint>Carrier:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0b9f5e6-de41-5f0a-ac84-9af453cd5743</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>SW420 HARNESS - VERIFY</value>
+      <footprint>Carrier:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b52618d-9d4a-5046-b248-d1e0fb143506</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>REED TO GND</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e85d75ed-bd8b-51d8-bd7f-1188829a2177</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>BUTTON 1 TO GND</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17e6d2e0-788b-5b0a-9e31-abd534b9a05d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>BUTTON 2 TO GND</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c21e7f1a-598d-5004-9e4e-8c4187e594a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>BUZZER HARNESS</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db03bb93-c026-57d2-8af7-eb83e36a778a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J14">
+      <value>TO BLUE PILL SWD CABLE</value>
+      <footprint>Carrier:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcd639da-3a06-516e-ba4a-574e87306802</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J15">
+      <value>STLINK SIGNALS ONLY</value>
+      <footprint>Carrier:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f83cbfe0-ebbd-5edb-ac39-d6e2165d572e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J16">
+      <value>VTREF SENSE ONLY</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3591a5a-d503-51bb-bd9a-dc87b45557ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>MASTER POWER - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06a8c600-fb35-568d-9352-ec1d17cbae79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP2">
+      <value>MPU POWER - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57c83076-9772-5db0-93d4-a04236c4ddb2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP3">
+      <value>RTC POWER - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f7b4db7-9fa0-5009-b3b2-528cb9dd7b22</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP4">
+      <value>DHT POWER - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44bbadb1-dba5-566c-9d37-9fe4f1e42693</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP5">
+      <value>GPS 5V CANDIDATE - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>069131fe-f89b-5577-bd15-304f264eca2c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP6">
+      <value>SD 5V CANDIDATE - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aedc79af-44ee-592d-a7ef-31e2194634f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP7">
+      <value>SW420 POWER - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f313d038-a69b-5fe6-9dcb-af458aa6af67</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP8">
+      <value>BUZZER 5V - OPEN</value>
+      <footprint>Carrier:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Carrier:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector_Generic__Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b5f4f50-24a7-5f23-9e59-6d1f2e194858</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Carrier:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Carrier:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Transistor_FET__AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>474d0205-2866-5510-8b47-30865c6ace5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>P2N2222AG</value>
+      <footprint>Carrier:TO-92_Inline_Wide</footprint>
+      <fields>
+        <field name="Footprint">Carrier:TO-92_Inline_Wide</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Transistor_BJT__Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="BJT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3310acab-822b-5aa5-846c-409bccb77b8f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>4k7 DNP</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>024602ba-bdce-5906-bef0-5d6e9a32c78a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>4k7 DNP</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d02c4fa9-f042-5e92-b853-2bbf361b6456</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>4k7 DNP</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da1e7668-f302-5ead-a151-f02be2ee9b0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e8f7822-b71b-5474-ad1d-4f62a39e7272</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15c35aea-5ae1-5066-8796-a000fd63dbf2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1287f031-64ca-5c9d-ab85-889d97f918c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a6ee34f-a32f-5745-943f-2f8d1fd0a003</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>330</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>576ec43d-0f9a-5c3f-bc9c-5f1fdabfe592</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>330</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b442c9f9-ec5f-54ec-a36c-5c65caeac732</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>330</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a74758b-137c-5763-97a4-472746d3171b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>680</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>030383de-549e-5d29-b19b-bce57034ce9e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Device__R" description="Resistor"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00dacfc8-a3c5-5457-993f-58fba9b40845</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>GND</value>
+      <footprint>Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector__TestPoint" description="test point"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd24116c-1617-575f-a8ab-84d66ba6172e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>5V_PROT</value>
+      <footprint>Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector__TestPoint" description="test point"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bd4dc6f-42c0-54e5-ad98-cd39279b1c89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>3V3_AUX</value>
+      <footprint>Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector__TestPoint" description="test point"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df730cb8-bf0f-5712-b406-410af99e5b65</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>3V3_BP</value>
+      <footprint>Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Footprint">Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Connector__TestPoint" description="test point"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a26e8ca7-8641-5b79-8889-7af5c73206e3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>MCP1700-3302E/TO</value>
+      <footprint>Carrier:TO-92_Inline_Wide</footprint>
+      <fields>
+        <field name="Footprint">Carrier:TO-92_Inline_Wide</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Regulator_Linear__MCP1700x-330xxTO" description="250mA Low Quiscent Current LDO, 3.3V output, TO-92"/>
+      <property name="Sheetname" value="SmartLogistics"/>
+      <property name="Sheetfile" value="SmartLogistics.kicad_sch"/>
+      <property name="ki_keywords" value="regulator linear ldo"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d06cfa5-4ce2-581e-af69-a183d1e39816</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Carrier" part="Connector_Generic__Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Connector_Generic__Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Connector_Generic__Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Connector_Generic__Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Connector_Generic__Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Connector_Generic__Conn_01x20">
+      <description>Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Connector__TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Device__C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Device__C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Device__D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Device__LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Device__R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Mechanical__MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="Carrier" part="Regulator_Linear__MCP1700x-330xxTO">
+      <description>250mA Low Quiscent Current LDO, 3.3V output, TO-92</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700x-330xxTO</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</field>
+        <field name="Description">250mA Low Quiscent Current LDO, 3.3V output, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Transistor_BJT__Q_NPN_CBE">
+      <description>NPN transistor, collector/base/emitter</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_CBE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">NPN transistor, collector/base/emitter</field>
+        <field name="Sim.Device">NPN</field>
+        <field name="Sim.Pins">1=C 2=B 3=E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Transistor_FET__AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description">-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Carrier">
+      <uri>${KIPRJMOD}/Libraries/Carrier.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3_AUX" class="Power,Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO_3" pintype="power_out"/>
+    </net>
+    <net code="2" name="/3V3_BP" class="Power,Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/5V_IN" class="Power,Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="4" name="/5V_PROT" class="Power,Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/5V_SYS" class="Power,Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VI_2" pintype="power_in"/>
+    </net>
+    <net code="6" name="/BLUE_PB10" class="Default">
+      <node ref="J2" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/BUTTON1_PB13" class="Default">
+      <node ref="J11" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/BUTTON2_PB14" class="Default">
+      <node ref="J12" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/BUZZER_BASE" class="Default">
+      <node ref="Q2" pin="2" pinfunction="B_2" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/BUZZER_LOW" class="Default">
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="C_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/BUZZER_PB0" class="Default">
+      <node ref="J2" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/BUZZER_VCC" class="Power,Default">
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="13" name="/DHT_PB5" class="Default">
+      <node ref="J3" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/DHT_VCC" class="Power,Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/GND" class="Power,Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="Q2" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+    </net>
+    <net code="16" name="/GPS_RX_PA9" class="Default">
+      <node ref="J3" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="17" name="/GPS_TX_PA10" class="Default">
+      <node ref="J3" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="18" name="/GPS_VCC" class="Power,Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/GREEN_PB1" class="Default">
+      <node ref="J2" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/I2C_SCL_PB6" class="Default">
+      <node ref="J3" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/I2C_SDA_PB7" class="Default">
+      <node ref="J3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/LED_BLUE_A" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/LED_GREEN_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/LED_RED_A" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/MPU_VCC" class="Power,Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="26" name="/NRST" class="Default">
+      <node ref="J15" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+    </net>
+    <net code="27" name="/RED_PB11" class="Default">
+      <node ref="J2" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/REED_PA1" class="Default">
+      <node ref="J10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="/RTC_VCC" class="Power,Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="30" name="/SD_CS_PA4" class="Default">
+      <node ref="J2" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/SD_MISO_PA6" class="Default">
+      <node ref="J2" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="32" name="/SD_MOSI_PA7" class="Default">
+      <node ref="J2" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="33" name="/SD_SCK_PA5" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="34" name="/SD_VCC" class="Power,Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="35" name="/SW420_PB12" class="Default">
+      <node ref="J3" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="36" name="/SW420_VCC" class="Power,Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="37" name="/SWCLK_PA14" class="Default">
+      <node ref="J14" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="38" name="/SWDIO_PA13" class="Default">
+      <node ref="J14" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(J2-Pin_1-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J2-Pin_2-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J2-Pin_3-Pad3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J2-Pin_4-Pad4)" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J2-Pin_5-Pad5)" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J2-Pin_7-Pad7)" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J2-Pin_8-Pad8)" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J3-Pin_4-Pad4)" class="Default">
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J3-Pin_5-Pad5)" class="Default">
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J3-Pin_9-Pad9)" class="Default">
+      <node ref="J3" pin="9" pinfunction="Pin_9_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J3-Pin_10-Pad10)" class="Default">
+      <node ref="J3" pin="10" pinfunction="Pin_10_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J3-Pin_11-Pad11)" class="Default">
+      <node ref="J3" pin="11" pinfunction="Pin_11_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J3-Pin_12-Pad12)" class="Default">
+      <node ref="J3" pin="12" pinfunction="Pin_12_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J3-Pin_13-Pad13)" class="Default">
+      <node ref="J3" pin="13" pinfunction="Pin_13_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J3-Pin_16-Pad16)" class="Default">
+      <node ref="J3" pin="16" pinfunction="Pin_16_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J3-Pin_17-Pad17)" class="Default">
+      <node ref="J3" pin="17" pinfunction="Pin_17_17" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

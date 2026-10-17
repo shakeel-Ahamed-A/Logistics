@@ -1,0 +1,91 @@
+[
+  {
+    "args": [
+      "sch",
+      "export",
+      "pdf",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\Schematic.pdf",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_sch"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to 'D:\\Logistics\\PCB_Fabrication\\Schematic.pdf'.\nDone.\n",
+    "stderr": "07:42:30: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n07:42:30: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\nFontconfig error: Cannot load default config file: No such file: (null)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "pdf",
+      "--mode-single",
+      "--layers",
+      "F.Cu,F.Silkscreen,Edge.Cuts",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\Evidence\\PCB_Top.pdf",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to 'D:\\Logistics\\PCB_Fabrication\\Evidence\\PCB_Top.pdf'.\nDone.\n",
+    "stderr": "07:42:30: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n07:42:30: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "pdf",
+      "--mode-single",
+      "--mirror",
+      "--layers",
+      "B.Cu,B.Silkscreen,Edge.Cuts",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\Evidence\\PCB_Bottom.pdf",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to 'D:\\Logistics\\PCB_Fabrication\\Evidence\\PCB_Bottom.pdf'.\nDone.\n",
+    "stderr": "07:42:30: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n07:42:30: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "pdf",
+      "--mode-single",
+      "--scale",
+      "1",
+      "--layers",
+      "F.Fab,F.Silkscreen,Edge.Cuts,Dwgs.User",
+      "--exclude-value",
+      "--sketch-pads-on-fab-layers",
+      "--black-and-white",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\Evidence\\Assembly_1to1.pdf",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to 'D:\\Logistics\\PCB_Fabrication\\Evidence\\Assembly_1to1.pdf'.\nDone.\n",
+    "stderr": "07:42:31: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n07:42:31: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "render",
+      "--width",
+      "1600",
+      "--height",
+      "1400",
+      "--zoom",
+      "0.7",
+      "--rotate",
+      "35,0,25",
+      "--quality",
+      "high",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\PCB_3D.png",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Loading\u00e2\u20ac\u00a6\nBuild board outline\n\nCreate layers\nCreate tracks and vias\nCreate zones\nBuild Tech layers\nBuild Tech layer 11\nBuild Tech layer 9\nBuild Tech layer 15\nBuild Tech layer 13\nBuild Tech layer 7\nBuild Tech layer 5\nBuild Tech layer 3\nBuild Tech layer 1\nBuild Tech layer 17\nBuild Tech layer 19\nBuild Tech layer 21\nBuild Tech layer 23\nBuild Tech layer 39\nBuild Tech layer 41\nBuild Tech layer 43\nBuild Tech layer 45\nBuild Tech layer 47\nBuild Tech layer 49\nBuild Tech layer 51\nBuild Tech layer 53\nBuild Tech layer 55\nBuild Tech layer 57\nBuild Tech layer 59\nBuild Tech layer 61\nBuild Tech layer 63\nBuild Tech layer 65\nBuild Tech layer 67\nBuild Tech layer 69\nBuild Tech layer 71\nBuild Tech layer 73\nBuild Tech layer 75\nBuild Tech layer 77\nBuild Tech layer 79\nBuild Tech layer 81\nBuild Tech layer 83\nBuild Tech layer 85\nBuild Tech layer 87\nBuild Tech layer 89\nBuild Tech layer 91\nBuild Tech layer 93\nBuild Tech layer 95\nBuild Tech layer 97\nBuild Tech layer 99\nBuild Tech layer 101\nBuild Tech layer 103\nBuild Tech layer 105\nBuild Tech layer 107\nBuild Tech layer 109\nBuild Tech layer 111\nBuild Tech layer 113\nBuild Tech layer 115\nBuild Tech layer 117\nBuild Tech layer 119\nBuild Tech layer 121\nBuild Tech layer 123\nBuild Tech layer 125\nBuild Tech layer 127\nSimplifying copper layer polygons\nCalculating plated copper\nSimplify holes contours\nBuild BVH for holes and vias\nLoad Raytracing: board\nLoad Raytracing: layers\nLoading 3D models...\nReload time 2.054 s\nRendering: 4 \nRendering: 7 \nRendering: 10 \nRendering: 13 \nRendering: 17 \nRendering: 19 \nRendering: 21 \nRendering: 22 \nRendering: 23 \nRendering: 25 \nRendering: 25 \nRendering: 26 \nRendering: 28 \nRendering: 29 \nRendering: 30 \nRendering: 31 \nRendering: 32 \nRendering: 34 \nRendering: 35 \nRendering: 36 \nRendering: 37 \nRendering: 39 \nRendering: 40 \nRendering: 42 \nRendering: 44 \nRendering: 47 \nRendering: 50 \nRendering: 53 \nRendering: 56 \nRendering: 60 \nRendering: 62 \nRendering: 63 \nRendering: 65 \nRendering: 66 \nRendering: 69 \nRendering: 73 \nRendering: 76 \nRendering: 79 \nRendering: 80 \nRendering: 82 \nRendering: 83 \nRendering: 84 \nRendering: 86 \nRendering: 89 \nRendering: 91 \nRendering: 92 \nRendering: 95 \nRendering: 98 \nRendering: 100 \nRendering: Post processing shader\nRendering time 20.550 s\nSuccessfully created 3D render image\n",
+    "stderr": "07:42:31: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n07:42:31: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  }
+]

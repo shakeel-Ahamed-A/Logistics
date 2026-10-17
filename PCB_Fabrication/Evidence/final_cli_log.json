@@ -1,0 +1,43 @@
+[
+  {
+    "args": [
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\Evidence\\SmartLogistics.net.xml",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_sch"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "22:46:28: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n22:46:28: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\nFontconfig error: Cannot load default config file: No such file: (null)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "erc",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\ERC_Report.txt",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_sch"
+    ],
+    "exit": 0,
+    "stdout": "Found 0 violations\nSaved ERC Report to D:/Logistics/PCB_Fabrication/ERC_Report.txt\n",
+    "stderr": "22:46:31: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n22:46:31: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\nFontconfig error: Cannot load default config file: No such file: (null)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "drc",
+      "--schematic-parity",
+      "--all-track-errors",
+      "-o",
+      "D:\\Logistics\\PCB_Fabrication\\DRC_Report.txt",
+      "D:\\Logistics\\PCB_Fabrication\\SmartLogistics.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Found 4 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to D:/Logistics/PCB_Fabrication/DRC_Report.txt\n",
+    "stderr": "22:46:33: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n22:46:33: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\nFontconfig error: Cannot load default config file: No such file: (null)\n"
+  }
+]

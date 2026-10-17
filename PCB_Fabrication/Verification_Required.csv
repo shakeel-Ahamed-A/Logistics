@@ -1,0 +1,21 @@
+ID,Status,Item,Exact evidence required,Current evidence
+B01,BLOCKED,Blue Pill mechanical,Measure row-centre spacing; 19 pitch intervals end-to-end; board W/L; socket height; protruding pins; USB and SWD projection.,Nominal 15.24mm rows; 2.54mm pitch; actual unmeasured
+B02,BLOCKED,Blue Pill orientation/pinout,Verify VBAT at J2 pin1 and 3V3 at J3 pin1 at SWD end; verify all 40 pin labels and 5V/3V3/GND continuity with power OFF.,Generic reference only; not user board
+B03,BLOCKED,Blue Pill regulator,Read full regulator marking; obtain actual datasheet and board circuit; validate 5V input and 100mA reserved load thermal/dropout.,No AMS1117 assumption
+B04,BLOCKED,5V source,"Identify source model, regulation, current limit, connector/cable polarity and >=1A capability; measure voltage/inrush/transients at load.",No regulated 5V source presently confirmed
+B05,BLOCKED,microSD,Read regulator/interface IC markings; document all six physical pins; get adapter schematic and card peak-current spec; verify input VIH and MISO voltage.,Initialization previously failed at 3.3V; no diagnosed cause
+B06,BLOCKED,MPU6050,Identify regulator/core VLOGIC and all 8 header pins; verify allowed VCC/AD0; measure pullups; confirm 0x69 with actual hardware.,Communication previously failed
+B07,BLOCKED,DS3231,"Identify exact breakout, VCC range, header order, pullups, EEPROM, battery type and charging circuit.",No primary-cell charging permitted
+B08,BLOCKED,DHT11 module,"Identify 3-pin order, actual minimum supply and DATA pullup destination; resolve 3.3V regulator tolerance versus sensor minimum.",May require changed supply/level interface
+B09,BLOCKED,GPS,Identify breakout regulator/VCC range; UART thresholds/voltages; connector order; current including antenna.,Bare NEO-6M cannot receive 5V
+B10,BLOCKED,SW420,Identify comparator and pullup source; confirm operation at candidate 3.3V and DO voltage; document three-pin order.,PB12 proposed; no hardware pass
+B11,BLOCKED,Buzzer,Measure/rate operating voltage and current; identify active/passive and piezo/magnetic; confirm <=20mA candidate load or redesign driver.,Earlier PB0 operation is not an electrical rating
+B12,BLOCKED,Purchased components,"Verify exact socket/header, capacitor body/lead sizes, transistor orientation, and AO3401A package before BOM release.",Library footprint is real; purchased component fit not yet proven
+B13,BLOCKED,Shop capability,"Confirm 2-layer plated holes, 0.3mm clearance, all finished drill sizes, annular rings, mask/silk, copper weight and turnaround.",Two-board quantity proposed
+P01,PENDING,OLED,"Identify exact display, controller/interface, supply and physical pin order; then add a connector if required.",Intentionally omitted
+P02,PENDING,Firmware,Synchronize PB15->PB12 and disable character LCD; validate integrated firmware after electrical checks.,No extensive firmware edits
+P03,PENDING,Mechanical retention,Choose enclosure and standoffs; secure external modules/cables; rigidly fix MPU orientation for event interpretation.,Only carrier mounting holes are designed
+P04,PENDING,Power sequencing and I2C,"Verify all modules powered with MCU, no pullup >3.3V, no phantom powering at startup/shutdown, equivalent pullup resistance and rise time.",JP links are not signal isolation
+P05,PENDING,ST-LINK,Identify exact debugger; distinguish 3.3V output from VTref input; leave J16 unpopulated for clone.,Use external target supply plus SWD/GND only
+P06,PENDING,Hardware validation,"Measure rails and currents with current limiting; test SD writes, MPU, GPS, RTC, DHT and SW420 independently; record real results.",No present hardware access
+P07,PENDING,Manufacturing export,"After blockers resolved: final checks, export/inspect Gerber and Excellon, then create SHOP.zip.",Withheld for P0

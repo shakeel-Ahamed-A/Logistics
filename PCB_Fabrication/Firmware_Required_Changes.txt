@@ -1,0 +1,10 @@
+Firmware synchronization only; original firmware was NOT modified.
+Source: Evidence/SmartLogistics_2026-09-16.ino
+1. Line 33: change #define PIN_SW420 PB15 to #define PIN_SW420 PB12.
+   PB12 is proposed and has NOT passed hardware testing. Verify SW420 polarity/output level.
+2. Line 22: use #define USE_LCD 0 for this carrier; no character LCD is provided.
+   Do not substitute an OLED driver/address until exact display hardware is confirmed.
+3. Line 499 already selects PB7 SDA/PB6 SCL and 100 kHz. Keep for initial validation.
+4. Preserve PA4..PA7 SPI; verify actual SD module interface before retrying initialization.
+5. Buzzer uses a low-side transistor: high PB0 enables it. Actual active/passive type still pending.
+No firmware compilation, programming or hardware sensor pass was performed in this task.

@@ -1,0 +1,64 @@
+Reference,Value_or_candidate_part,Quantity,Footprint,Populate,Status,Notes
+J1,REGULATED 5V INPUT,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,"5V +/-5%, current-limited source >=1A required; not presently available"
+Q1,AO3401A,1,Carrier:SOT-23,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,"Candidate reverse-polarity MOSFET: G1 S2 D3; drain input, source output. Does not block reverse current from another supply."
+C1,100u 10V,1,Carrier:CP_Radial_D6.3mm_P2.50mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+C2,1u X7R 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+U1,MCP1700-3302E/TO,1,Carrier:TO-92_Inline_Wide,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,New candidate AUX-only LDO; 150mA design ceiling pending final loads and thermal validation
+C3,1u X7R 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+C4,10u 10V,1,Carrier:CP_Radial_D6.3mm_P2.50mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+JP1,MASTER POWER - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,Fit only after identifying Blue Pill regulator. No USB or ST-LINK power while connected.
+C5,100n 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J2,BLUE PILL H1 - NOMINAL,1,Carrier:PinSocket_1x20_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.
+J3,BLUE PILL H2 - NOMINAL,1,Carrier:PinSocket_1x20_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.
+J4,MPU HARNESS - VERIFY,1,Carrier:PinHeader_1x05_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,"Harness 1=VCC,2=GND,3=SCL,4=SDA,5=AD0. AD0=MPU_VCC (candidate 3.3V). Verify actual MPU core/VLOGIC before enabling. No plug-in footprint claimed."
+JP2,MPU POWER - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+C6,100n 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J5,RTC HARNESS - VERIFY,1,Carrier:PinHeader_1x04_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,Remove/disable any battery charger before a CR2032 is fitted. Verify onboard I2C pullups and battery holder underside clearance.
+JP3,RTC POWER - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+C7,100n 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+R1,4k7 DNP,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,Populate only if combined module pullups require it
+R2,4k7 DNP,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+J6,DHT11 HARNESS - VERIFY,1,Carrier:PinHeader_1x03_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,3-pin module; verify actual pin order. 3.3V operation and module pullup destination pending.
+JP4,DHT POWER - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+R3,4k7 DNP,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+C8,100n 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J7,GPS HARNESS - VERIFY,1,Carrier:PinHeader_1x04_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,3=GPS TX to MCU RX;4=GPS RX from MCU TX. 5V applies only if actual BREAKOUT input regulator is verified; never bare NEO-6M VCC.
+JP5,GPS 5V CANDIDATE - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+C9,100n 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J8,SD HARNESS - VERIFY,1,Carrier:PinHeader_1x06_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.
+JP6,SD 5V CANDIDATE - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+C10,100n 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+C11,100u 10V,1,Carrier:CP_Radial_D6.3mm_P2.50mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+R4,10k,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J9,SW420 HARNESS - VERIFY,1,Carrier:PinHeader_1x03_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,PB12 is proposed only; firmware previously PB15. Verify comparator operation and output pullup at 3.3V.
+JP7,SW420 POWER - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+C12,100n 10V,1,Carrier:C_Disc_D5.0mm_W2.5mm_P5.00mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J10,REED TO GND,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J11,BUTTON 1 TO GND,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+J12,BUTTON 2 TO GND,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+R5,10k,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+R6,10k,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+R7,10k,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+R8,330,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+D1,GREEN,1,Carrier:LED_D3.0mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+R9,330,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+D2,BLUE,1,Carrier:LED_D3.0mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+R10,330,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+D3,RED,1,Carrier:LED_D3.0mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.
+R11,680,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+R12,100k,1,Carrier:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+Q2,P2N2222AG,1,Carrier:TO-92_Inline_Wide,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,"Candidate onsemi P2N2222AG C1 B2 E3, not arbitrary 2N2222 substitute. Proposed load <=20mA, verify actual buzzer before fitting link."
+J13,BUZZER HARNESS,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+JP8,BUZZER 5V - OPEN,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,
+D4,1N4007,1,Carrier:D_DO-41_SOD81_P10.16mm_Horizontal,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,Flyback cathode pin1 to + buzzer supply. Validate acoustic behavior for passive buzzer.
+J14,TO BLUE PILL SWD CABLE,1,Carrier:PinHeader_1x03_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,Short cable to existing separate Blue Pill SWD header. Carrier order is NOT Blue Pill 4-pin order. Do not wire its 3.3V power pin.
+J15,STLINK SIGNALS ONLY,1,Carrier:PinHeader_1x04_P2.54mm_Vertical,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,No programmer power. Power target externally before connecting signals. Identify debugger model.
+J16,VTREF SENSE ONLY,1,Carrier:PinHeader_1x02_P2.54mm_Vertical,NO / OPEN,NOT PURCHASE/ASSEMBLY APPROVED,For verified genuine debugger VTref input only. Never connect clone 3.3V output. Leave unpopulated by default.
+TP1,GND,1,Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+TP2,5V_PROT,1,Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+TP3,3V3_AUX,1,Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+TP4,3V3_BP,1,Carrier:TestPoint_THTPad_D2.0mm_Drill1.0mm,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+H1,M3 3.2mm,1,Carrier:MountingHole_3.2mm_M3,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+H2,M3 3.2mm,1,Carrier:MountingHole_3.2mm_M3,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+H3,M3 3.2mm,1,Carrier:MountingHole_3.2mm_M3,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,
+H4,M3 3.2mm,1,Carrier:MountingHole_3.2mm_M3,PROVISIONAL,NOT PURCHASE/ASSEMBLY APPROVED,

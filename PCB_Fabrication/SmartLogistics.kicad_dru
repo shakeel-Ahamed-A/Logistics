@@ -1,0 +1,7 @@
+(version 1)
+(rule "Proposed shop copper clearance" (constraint clearance (min 0.3mm)))
+(rule "Proposed signal minimum" (constraint track_width (min 0.4mm)))
+(rule "Proposed copper to edge" (constraint edge_clearance (min 0.5mm)))
+(rule "Proposed drill minimum" (constraint hole_size (min 0.5mm)))
+(rule "Proposed annular ring" (constraint annular_width (min 0.25mm)))
+(rule "Power trace width" (condition "A.NetClass == 'Power'") (constraint track_width (min 0.8mm)))

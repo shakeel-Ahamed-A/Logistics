@@ -1,0 +1,139 @@
+22:49:58: Error: Can't create registry key 'HKCU\Software\kicad-cli' (error 5: Access is denied.)
+22:49:58: Error: Can't open registry key 'HKCU\Software\kicad-cli' (error 2: The system cannot find the file specified.)
+Loading…
+Build board outline
+
+Create layers
+Create tracks and vias
+Create zones
+Build Tech layers
+Build Tech layer 11
+Build Tech layer 9
+Build Tech layer 15
+Build Tech layer 13
+Build Tech layer 7
+Build Tech layer 5
+Build Tech layer 3
+Build Tech layer 1
+Build Tech layer 17
+Build Tech layer 19
+Build Tech layer 21
+Build Tech layer 23
+Build Tech layer 39
+Build Tech layer 41
+Build Tech layer 43
+Build Tech layer 45
+Build Tech layer 47
+Build Tech layer 49
+Build Tech layer 51
+Build Tech layer 53
+Build Tech layer 55
+Build Tech layer 57
+Build Tech layer 59
+Build Tech layer 61
+Build Tech layer 63
+Build Tech layer 65
+Build Tech layer 67
+Build Tech layer 69
+Build Tech layer 71
+Build Tech layer 73
+Build Tech layer 75
+Build Tech layer 77
+Build Tech layer 79
+Build Tech layer 81
+Build Tech layer 83
+Build Tech layer 85
+Build Tech layer 87
+Build Tech layer 89
+Build Tech layer 91
+Build Tech layer 93
+Build Tech layer 95
+Build Tech layer 97
+Build Tech layer 99
+Build Tech layer 101
+Build Tech layer 103
+Build Tech layer 105
+Build Tech layer 107
+Build Tech layer 109
+Build Tech layer 111
+Build Tech layer 113
+Build Tech layer 115
+Build Tech layer 117
+Build Tech layer 119
+Build Tech layer 121
+Build Tech layer 123
+Build Tech layer 125
+Build Tech layer 127
+Simplifying copper layer polygons
+Calculating plated copper
+Simplify holes contours
+Build BVH for holes and vias
+Load Raytracing: board
+Load Raytracing: layers
+Loading 3D models...
+Reload time 3.514 s
+Rendering: 2 
+Rendering: 5 
+Rendering: 7 
+Rendering: 9 
+Rendering: 11 
+Rendering: 13 
+Rendering: 16 
+Rendering: 18 
+Rendering: 20 
+Rendering: 21 
+Rendering: 22 
+Rendering: 23 
+Rendering: 24 
+Rendering: 25 
+Rendering: 26 
+Rendering: 27 
+Rendering: 28 
+Rendering: 29 
+Rendering: 30 
+Rendering: 31 
+Rendering: 32 
+Rendering: 33 
+Rendering: 34 
+Rendering: 35 
+Rendering: 36 
+Rendering: 37 
+Rendering: 38 
+Rendering: 39 
+Rendering: 40 
+Rendering: 42 
+Rendering: 44 
+Rendering: 46 
+Rendering: 48 
+Rendering: 51 
+Rendering: 53 
+Rendering: 55 
+Rendering: 57 
+Rendering: 60 
+Rendering: 61 
+Rendering: 62 
+Rendering: 63 
+Rendering: 64 
+Rendering: 66 
+Rendering: 68 
+Rendering: 70 
+Rendering: 72 
+Rendering: 74 
+Rendering: 77 
+Rendering: 79 
+Rendering: 80 
+Rendering: 81 
+Rendering: 82 
+Rendering: 83 
+Rendering: 85 
+Rendering: 86 
+Rendering: 89 
+Rendering: 91 
+Rendering: 92 
+Rendering: 94 
+Rendering: 97 
+Rendering: 99 
+Rendering: 100 
+Rendering: Post processing shader
+Rendering time 26.472 s
+Successfully created 3D render image

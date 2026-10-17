@@ -1,0 +1,37 @@
+STATUS: PROVISIONAL P0 - QUOTATION ONLY - DO NOT FABRICATE
+Project: Smart Logistics Blue Pill carrier
+Target college review: 21-22 October 2026
+
+Proposed shop specification (not a manufacturing order):
+- Quantity: 2 prototype boards, one assembled and one spare.
+- Outline: 110.00 x 110.00 mm rectangle.
+- Layers: 2 copper, plated-through holes required.
+- Material/thickness: FR-4, nominal 1.6 mm.
+- Copper: proposed 1 oz / 35 um both sides.
+- Mask: green solder mask both sides, untented component holes; confirm via tenting policy.
+- Legend: white top silkscreen; smallest present text 0.8 mm, stroke 0.13 mm. Confirm readability/capability.
+- Finish: proposed lead-free HASL; quote alternatives if unavailable.
+- Track widths: 0.4 mm signals, 0.8 mm power in current layout.
+- Copper clearance: minimum 0.3 mm; copper to board edge minimum 0.5 mm.
+- Vias: 1.0 mm copper diameter / 0.5 mm finished drill in current routing.
+- Header/socket holes: 1.0 mm nominal with 1.7 mm pads (0.35 mm nominal radial annulus).
+- Other component holes: see Drill_Size_Audit.csv; actual component leads still require confirmation.
+- Mounting: four 3.2 mm non-plated holes, centres 5 mm from each edge; hole spacing 100 x 100 mm.
+- No internal slots or castellations. No fine-pitch MCU assembly.
+- Assembly mainly through-hole; one AO3401A SOT-23 candidate requires surface-mount hand soldering.
+
+Ask the shop to confirm: two-sided copper WITH plated-through holes; 0.3 mm clearance;
+0.4 mm signal tracks; 0.5 mm finished via drill; annular-ring tolerance;
+all finished component hole sizes; mask and silk capability; material/copper tolerances;
+electrical bare-board testing; price for two boards; and committed urgent turnaround.
+Do not convert this to a non-plated board without redesigning and reviewing all vias and top-side solder access.
+
+Release gate:
+Resolve every BLOCKED item in Verification_Required.csv, confirm the real power and module
+interfaces, verify a 1:1 mechanical fit, revise the design as needed, and repeat ERC, full DRC
+with schematic parity, 2D/3D, connectivity and Gerber/drill review on that final revision.
+Only then export standard RS-274X Gerbers (F.Cu/B.Cu/F.Mask/B.Mask/F.Silkscreen/Edge.Cuts)
+and Excellon PTH + NPTH drills into Gerbers/ and Drill_Files/.
+Inspect board outline, drill registration, scale, layer alignment and polarity in a Gerber viewer.
+Create PCB_Fabrication_SHOP.zip from ONLY the reviewed Gerber/drill files and final shop notes.
+P0 has no approved Gerber, Excellon or shop ZIP. Native files and images are not fabrication approval.

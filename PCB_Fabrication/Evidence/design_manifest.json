@@ -1,0 +1,1664 @@
+[
+  {
+    "ref": "J1",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "REGULATED 5V INPUT",
+    "nets": {
+      "1": "5V_IN",
+      "2": "GND"
+    },
+    "sch": [
+      55,
+      45
+    ],
+    "pcb": [
+      32,
+      112,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "5V +/-5%, current-limited source >=1A required; not presently available",
+    "uuid": "cb51f10e-d669-540d-8dc8-d1635daab6c4",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "Q1",
+    "lib": "Transistor_FET",
+    "name": "AO3401A",
+    "value": "AO3401A",
+    "nets": {
+      "1": "GND",
+      "2": "5V_PROT",
+      "3": "5V_IN"
+    },
+    "sch": [
+      135,
+      45
+    ],
+    "pcb": [
+      43,
+      112,
+      0
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "Candidate reverse-polarity MOSFET: G1 S2 D3; drain input, source output. Does not block reverse current from another supply.",
+    "uuid": "474d0205-2866-5510-8b47-30865c6ace5c",
+    "key": "Transistor_FET__AO3401A"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "100u 10V",
+    "nets": {
+      "1": "5V_PROT",
+      "2": "GND"
+    },
+    "sch": [
+      215,
+      45
+    ],
+    "pcb": [
+      52,
+      112,
+      0
+    ],
+    "fp": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "52fb3eae-6841-5e96-91dc-d45971bba870",
+    "key": "Device__C_Polarized"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device",
+    "name": "C",
+    "value": "1u X7R 10V",
+    "nets": {
+      "1": "5V_SYS",
+      "2": "GND"
+    },
+    "sch": [
+      295,
+      45
+    ],
+    "pcb": [
+      63,
+      112,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "a4d41733-5b9d-5a4c-99b9-3b300391c8e8",
+    "key": "Device__C"
+  },
+  {
+    "ref": "U1",
+    "lib": "Regulator_Linear",
+    "name": "MCP1700x-330xxTO",
+    "value": "MCP1700-3302E/TO",
+    "nets": {
+      "1": "GND",
+      "2": "5V_SYS",
+      "3": "3V3_AUX"
+    },
+    "sch": [
+      375,
+      45
+    ],
+    "pcb": [
+      75,
+      112,
+      0
+    ],
+    "fp": "Package_TO_SOT_THT:TO-92_Inline_Wide",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "New candidate AUX-only LDO; 150mA design ceiling pending final loads and thermal validation",
+    "uuid": "4d06cfa5-4ce2-581e-af69-a183d1e39816",
+    "key": "Regulator_Linear__MCP1700x-330xxTO"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device",
+    "name": "C",
+    "value": "1u X7R 10V",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "GND"
+    },
+    "sch": [
+      455,
+      45
+    ],
+    "pcb": [
+      85,
+      112,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "f8e2db4d-1c2f-5b91-b294-0dac86340175",
+    "key": "Device__C"
+  },
+  {
+    "ref": "C4",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "10u 10V",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "GND"
+    },
+    "sch": [
+      535,
+      45
+    ],
+    "pcb": [
+      97,
+      112,
+      0
+    ],
+    "fp": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "176d8b6d-5af6-5565-bcb4-6fe76edd4740",
+    "key": "Device__C_Polarized"
+  },
+  {
+    "ref": "JP1",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "MASTER POWER - OPEN",
+    "nets": {
+      "1": "5V_PROT",
+      "2": "5V_SYS"
+    },
+    "sch": [
+      615,
+      45
+    ],
+    "pcb": [
+      111,
+      112,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "POWER",
+    "dnp": true,
+    "notes": "Fit only after identifying Blue Pill regulator. No USB or ST-LINK power while connected.",
+    "uuid": "06a8c600-fb35-568d-9352-ec1d17cbae79",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "C5",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n 10V",
+    "nets": {
+      "1": "3V3_BP",
+      "2": "GND"
+    },
+    "sch": [
+      695,
+      45
+    ],
+    "pcb": [
+      84,
+      84,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "POWER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "f8f166d8-a6dc-52ef-b40d-904da4aff40a",
+    "key": "Device__C"
+  },
+  {
+    "ref": "J2",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x20",
+    "value": "BLUE PILL H1 - NOMINAL",
+    "nets": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": "REED_PA1",
+      "7": null,
+      "8": null,
+      "9": "SD_CS_PA4",
+      "10": "SD_SCK_PA5",
+      "11": "SD_MISO_PA6",
+      "12": "SD_MOSI_PA7",
+      "13": "BUZZER_PB0",
+      "14": "GREEN_PB1",
+      "15": "BLUE_PB10",
+      "16": "RED_PB11",
+      "17": "NRST",
+      "18": "3V3_BP",
+      "19": "GND",
+      "20": "GND"
+    },
+    "sch": [
+      55,
+      125
+    ],
+    "pcb": [
+      74.76,
+      30,
+      0
+    ],
+    "fp": "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical",
+    "section": "BLUE PILL",
+    "dnp": false,
+    "notes": "20x2.54; pin1=VBAT at SWD end. User physical fit and orientation UNVERIFIED.",
+    "uuid": "3a371579-9798-5ea3-aa35-cd27cb8a3aef",
+    "key": "Connector_Generic__Conn_01x20"
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x20",
+    "value": "BLUE PILL H2 - NOMINAL",
+    "nets": {
+      "1": "3V3_BP",
+      "2": "GND",
+      "3": "5V_SYS",
+      "4": null,
+      "5": null,
+      "6": "I2C_SDA_PB7",
+      "7": "I2C_SCL_PB6",
+      "8": "DHT_PB5",
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": "GPS_TX_PA10",
+      "15": "GPS_RX_PA9",
+      "16": null,
+      "17": null,
+      "18": "BUTTON2_PB14",
+      "19": "BUTTON1_PB13",
+      "20": "SW420_PB12"
+    },
+    "sch": [
+      135,
+      125
+    ],
+    "pcb": [
+      90,
+      30,
+      0
+    ],
+    "fp": "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical",
+    "section": "BLUE PILL",
+    "dnp": false,
+    "notes": "15.24mm from H1 nominal. Pin1=3V3 at SWD end. No carrier AUX rail connection.",
+    "uuid": "36299d6e-a9ce-524d-ba92-09b91cf1352a",
+    "key": "Connector_Generic__Conn_01x20"
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x05",
+    "value": "MPU HARNESS - VERIFY",
+    "nets": {
+      "1": "MPU_VCC",
+      "2": "GND",
+      "3": "I2C_SCL_PB6",
+      "4": "I2C_SDA_PB7",
+      "5": "MPU_VCC"
+    },
+    "sch": [
+      215,
+      125
+    ],
+    "pcb": [
+      118,
+      33,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "Harness 1=VCC,2=GND,3=SCL,4=SDA,5=AD0. AD0=MPU_VCC (candidate 3.3V). Verify actual MPU core/VLOGIC before enabling. No plug-in footprint claimed.",
+    "uuid": "457fc464-b6cb-51b1-b6a7-79bbd3d86a97",
+    "key": "Connector_Generic__Conn_01x05"
+  },
+  {
+    "ref": "JP2",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "MPU POWER - OPEN",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "MPU_VCC"
+    },
+    "sch": [
+      295,
+      125
+    ],
+    "pcb": [
+      108,
+      33,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "57c83076-9772-5db0-93d4-a04236c4ddb2",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "C6",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n 10V",
+    "nets": {
+      "1": "MPU_VCC",
+      "2": "GND"
+    },
+    "sch": [
+      375,
+      125
+    ],
+    "pcb": [
+      108,
+      41,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "207ee026-50c9-576f-b6c3-1a8bfbf3d1bd",
+    "key": "Device__C"
+  },
+  {
+    "ref": "J5",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "RTC HARNESS - VERIFY",
+    "nets": {
+      "1": "RTC_VCC",
+      "2": "GND",
+      "3": "I2C_SCL_PB6",
+      "4": "I2C_SDA_PB7"
+    },
+    "sch": [
+      455,
+      125
+    ],
+    "pcb": [
+      118,
+      53,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "Remove/disable any battery charger before a CR2032 is fitted. Verify onboard I2C pullups and battery holder underside clearance.",
+    "uuid": "afef1fdf-5836-5fbe-bfb8-fa3f7573e236",
+    "key": "Connector_Generic__Conn_01x04"
+  },
+  {
+    "ref": "JP3",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "RTC POWER - OPEN",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "RTC_VCC"
+    },
+    "sch": [
+      535,
+      125
+    ],
+    "pcb": [
+      108,
+      53,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "4f7b4db7-9fa0-5009-b3b2-528cb9dd7b22",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "C7",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n 10V",
+    "nets": {
+      "1": "RTC_VCC",
+      "2": "GND"
+    },
+    "sch": [
+      615,
+      125
+    ],
+    "pcb": [
+      108,
+      62,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "4b3ab13a-af86-5349-b262-295fcfc2f370",
+    "key": "Device__C"
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "name": "R",
+    "value": "4k7 DNP",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "I2C_SCL_PB6"
+    },
+    "sch": [
+      695,
+      125
+    ],
+    "pcb": [
+      106,
+      73,
+      0
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "Populate only if combined module pullups require it",
+    "uuid": "024602ba-bdce-5906-bef0-5d6e9a32c78a",
+    "key": "Device__R"
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "name": "R",
+    "value": "4k7 DNP",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "I2C_SDA_PB7"
+    },
+    "sch": [
+      55,
+      210
+    ],
+    "pcb": [
+      106,
+      78,
+      0
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "d02c4fa9-f042-5e92-b853-2bbf361b6456",
+    "key": "Device__R"
+  },
+  {
+    "ref": "J6",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "DHT11 HARNESS - VERIFY",
+    "nets": {
+      "1": "DHT_VCC",
+      "2": "GND",
+      "3": "DHT_PB5"
+    },
+    "sch": [
+      135,
+      210
+    ],
+    "pcb": [
+      57,
+      65,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "3-pin module; verify actual pin order. 3.3V operation and module pullup destination pending.",
+    "uuid": "cce6fd5e-452f-58ec-bf14-be130852261b",
+    "key": "Connector_Generic__Conn_01x03"
+  },
+  {
+    "ref": "JP4",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "DHT POWER - OPEN",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "DHT_VCC"
+    },
+    "sch": [
+      215,
+      210
+    ],
+    "pcb": [
+      47,
+      65,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "44bbadb1-dba5-566c-9d37-9fe4f1e42693",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device",
+    "name": "R",
+    "value": "4k7 DNP",
+    "nets": {
+      "1": "DHT_VCC",
+      "2": "DHT_PB5"
+    },
+    "sch": [
+      295,
+      210
+    ],
+    "pcb": [
+      44,
+      74,
+      0
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "da1e7668-f302-5ead-a151-f02be2ee9b0b",
+    "key": "Device__R"
+  },
+  {
+    "ref": "C8",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n 10V",
+    "nets": {
+      "1": "DHT_VCC",
+      "2": "GND"
+    },
+    "sch": [
+      375,
+      210
+    ],
+    "pcb": [
+      44,
+      80,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "4df1a8d2-4ea9-565d-b08f-ad4d91f5f43b",
+    "key": "Device__C"
+  },
+  {
+    "ref": "J7",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "GPS HARNESS - VERIFY",
+    "nets": {
+      "1": "GPS_VCC",
+      "2": "GND",
+      "3": "GPS_TX_PA10",
+      "4": "GPS_RX_PA9"
+    },
+    "sch": [
+      455,
+      210
+    ],
+    "pcb": [
+      57,
+      45,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "3=GPS TX to MCU RX;4=GPS RX from MCU TX. 5V applies only if actual BREAKOUT input regulator is verified; never bare NEO-6M VCC.",
+    "uuid": "0c70d2da-6136-5e56-8426-27ea3c725ca1",
+    "key": "Connector_Generic__Conn_01x04"
+  },
+  {
+    "ref": "JP5",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "GPS 5V CANDIDATE - OPEN",
+    "nets": {
+      "1": "5V_SYS",
+      "2": "GPS_VCC"
+    },
+    "sch": [
+      535,
+      210
+    ],
+    "pcb": [
+      47,
+      45,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "069131fe-f89b-5577-bd15-304f264eca2c",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "C9",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n 10V",
+    "nets": {
+      "1": "GPS_VCC",
+      "2": "GND"
+    },
+    "sch": [
+      615,
+      210
+    ],
+    "pcb": [
+      45,
+      55,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "de2d8067-0aaf-51bf-9e72-6c5d09b03a26",
+    "key": "Device__C"
+  },
+  {
+    "ref": "J8",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x06",
+    "value": "SD HARNESS - VERIFY",
+    "nets": {
+      "1": "SD_VCC",
+      "2": "GND",
+      "3": "SD_CS_PA4",
+      "4": "SD_SCK_PA5",
+      "5": "SD_MISO_PA6",
+      "6": "SD_MOSI_PA7"
+    },
+    "sch": [
+      695,
+      210
+    ],
+    "pcb": [
+      57,
+      25,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "6-pin blue adapter. Candidate power is isolated. Buffer VIH/VIL and MISO voltage not verified. SPI traces provisional; do not energize until audited.",
+    "uuid": "d0b9f5e6-de41-5f0a-ac84-9af453cd5743",
+    "key": "Connector_Generic__Conn_01x06"
+  },
+  {
+    "ref": "JP6",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "SD 5V CANDIDATE - OPEN",
+    "nets": {
+      "1": "5V_SYS",
+      "2": "SD_VCC"
+    },
+    "sch": [
+      55,
+      290
+    ],
+    "pcb": [
+      47,
+      25,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "aedc79af-44ee-592d-a7ef-31e2194634f9",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "C10",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n 10V",
+    "nets": {
+      "1": "SD_VCC",
+      "2": "GND"
+    },
+    "sch": [
+      135,
+      290
+    ],
+    "pcb": [
+      44,
+      35,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "97344213-51f5-5df5-912a-e1b97507284e",
+    "key": "Device__C"
+  },
+  {
+    "ref": "C11",
+    "lib": "Device",
+    "name": "C_Polarized",
+    "value": "100u 10V",
+    "nets": {
+      "1": "SD_VCC",
+      "2": "GND"
+    },
+    "sch": [
+      215,
+      290
+    ],
+    "pcb": [
+      34,
+      30,
+      0
+    ],
+    "fp": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "c1799b9f-0914-522b-8c43-57137525ffb6",
+    "key": "Device__C_Polarized"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "3V3_BP",
+      "2": "SD_CS_PA4"
+    },
+    "sch": [
+      295,
+      290
+    ],
+    "pcb": [
+      61,
+      84,
+      0
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "5e8f7822-b71b-5474-ad1d-4f62a39e7272",
+    "key": "Device__R"
+  },
+  {
+    "ref": "J9",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "SW420 HARNESS - VERIFY",
+    "nets": {
+      "1": "SW420_VCC",
+      "2": "GND",
+      "3": "SW420_PB12"
+    },
+    "sch": [
+      375,
+      290
+    ],
+    "pcb": [
+      118,
+      91,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "PB12 is proposed only; firmware previously PB15. Verify comparator operation and output pullup at 3.3V.",
+    "uuid": "5b52618d-9d4a-5046-b248-d1e0fb143506",
+    "key": "Connector_Generic__Conn_01x03"
+  },
+  {
+    "ref": "JP7",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "SW420 POWER - OPEN",
+    "nets": {
+      "1": "3V3_AUX",
+      "2": "SW420_VCC"
+    },
+    "sch": [
+      455,
+      290
+    ],
+    "pcb": [
+      108,
+      91,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "SENSORS",
+    "dnp": true,
+    "notes": "",
+    "uuid": "f313d038-a69b-5fe6-9dcb-af458aa6af67",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "C12",
+    "lib": "Device",
+    "name": "C",
+    "value": "100n 10V",
+    "nets": {
+      "1": "SW420_VCC",
+      "2": "GND"
+    },
+    "sch": [
+      535,
+      290
+    ],
+    "pcb": [
+      108,
+      100,
+      0
+    ],
+    "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "section": "SENSORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "2e2bc923-5d15-5770-93ed-ac70cd3f7444",
+    "key": "Device__C"
+  },
+  {
+    "ref": "J10",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "REED TO GND",
+    "nets": {
+      "1": "REED_PA1",
+      "2": "GND"
+    },
+    "sch": [
+      615,
+      290
+    ],
+    "pcb": [
+      29,
+      45,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "CONTROLS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "e85d75ed-bd8b-51d8-bd7f-1188829a2177",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "J11",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "BUTTON 1 TO GND",
+    "nets": {
+      "1": "BUTTON1_PB13",
+      "2": "GND"
+    },
+    "sch": [
+      695,
+      290
+    ],
+    "pcb": [
+      29,
+      60,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "CONTROLS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "17e6d2e0-788b-5b0a-9e31-abd534b9a05d",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "J12",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "BUTTON 2 TO GND",
+    "nets": {
+      "1": "BUTTON2_PB14",
+      "2": "GND"
+    },
+    "sch": [
+      55,
+      370
+    ],
+    "pcb": [
+      29,
+      75,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "CONTROLS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "c21e7f1a-598d-5004-9e4e-8c4187e594a6",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "3V3_BP",
+      "2": "REED_PA1"
+    },
+    "sch": [
+      135,
+      370
+    ],
+    "pcb": [
+      35,
+      45,
+      90
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "CONTROLS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "15c35aea-5ae1-5066-8796-a000fd63dbf2",
+    "key": "Device__R"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "3V3_BP",
+      "2": "BUTTON1_PB13"
+    },
+    "sch": [
+      215,
+      370
+    ],
+    "pcb": [
+      35,
+      60,
+      90
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "CONTROLS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "1287f031-64ca-5c9d-ab85-889d97f918c8",
+    "key": "Device__R"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device",
+    "name": "R",
+    "value": "10k",
+    "nets": {
+      "1": "3V3_BP",
+      "2": "BUTTON2_PB14"
+    },
+    "sch": [
+      295,
+      370
+    ],
+    "pcb": [
+      35,
+      75,
+      90
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "CONTROLS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "2a6ee34f-a32f-5745-943f-2f8d1fd0a003",
+    "key": "Device__R"
+  },
+  {
+    "ref": "R8",
+    "lib": "Device",
+    "name": "R",
+    "value": "330",
+    "nets": {
+      "1": "GREEN_PB1",
+      "2": "LED_GREEN_A"
+    },
+    "sch": [
+      375,
+      370
+    ],
+    "pcb": [
+      46,
+      94,
+      90
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "INDICATORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "576ec43d-0f9a-5c3f-bc9c-5f1fdabfe592",
+    "key": "Device__R"
+  },
+  {
+    "ref": "D1",
+    "lib": "Device",
+    "name": "LED",
+    "value": "GREEN",
+    "nets": {
+      "1": "GND",
+      "2": "LED_GREEN_A"
+    },
+    "sch": [
+      615,
+      370
+    ],
+    "pcb": [
+      46,
+      101,
+      0
+    ],
+    "fp": "LED_THT:LED_D3.0mm",
+    "section": "INDICATORS",
+    "dnp": false,
+    "notes": "Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.",
+    "uuid": "7ac76bc0-d347-5807-9ca7-9f8b5b1bf012",
+    "key": "Device__LED"
+  },
+  {
+    "ref": "R9",
+    "lib": "Device",
+    "name": "R",
+    "value": "330",
+    "nets": {
+      "1": "BLUE_PB10",
+      "2": "LED_BLUE_A"
+    },
+    "sch": [
+      455,
+      370
+    ],
+    "pcb": [
+      61,
+      94,
+      90
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "INDICATORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "b442c9f9-ec5f-54ec-a36c-5c65caeac732",
+    "key": "Device__R"
+  },
+  {
+    "ref": "D2",
+    "lib": "Device",
+    "name": "LED",
+    "value": "BLUE",
+    "nets": {
+      "1": "GND",
+      "2": "LED_BLUE_A"
+    },
+    "sch": [
+      695,
+      370
+    ],
+    "pcb": [
+      61,
+      101,
+      0
+    ],
+    "fp": "LED_THT:LED_D3.0mm",
+    "section": "INDICATORS",
+    "dnp": false,
+    "notes": "Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.",
+    "uuid": "cbc4db80-d2a8-5a28-b47d-7cfc4bc81969",
+    "key": "Device__LED"
+  },
+  {
+    "ref": "R10",
+    "lib": "Device",
+    "name": "R",
+    "value": "330",
+    "nets": {
+      "1": "RED_PB11",
+      "2": "LED_RED_A"
+    },
+    "sch": [
+      535,
+      370
+    ],
+    "pcb": [
+      76,
+      94,
+      90
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "INDICATORS",
+    "dnp": false,
+    "notes": "",
+    "uuid": "0a74758b-137c-5763-97a4-472746d3171b",
+    "key": "Device__R"
+  },
+  {
+    "ref": "D3",
+    "lib": "Device",
+    "name": "LED",
+    "value": "RED",
+    "nets": {
+      "1": "GND",
+      "2": "LED_RED_A"
+    },
+    "sch": [
+      55,
+      450
+    ],
+    "pcb": [
+      76,
+      101,
+      0
+    ],
+    "fp": "LED_THT:LED_D3.0mm",
+    "section": "INDICATORS",
+    "dnp": false,
+    "notes": "Candidate 3mm LED; pin1 cathode. Verify chosen LED forward voltage/brightness.",
+    "uuid": "7b64c1c3-a699-5151-ba30-e3188e1579aa",
+    "key": "Device__LED"
+  },
+  {
+    "ref": "R11",
+    "lib": "Device",
+    "name": "R",
+    "value": "680",
+    "nets": {
+      "1": "BUZZER_PB0",
+      "2": "BUZZER_BASE"
+    },
+    "sch": [
+      135,
+      450
+    ],
+    "pcb": [
+      86,
+      94,
+      0
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "BUZZER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "030383de-549e-5d29-b19b-bce57034ce9e",
+    "key": "Device__R"
+  },
+  {
+    "ref": "R12",
+    "lib": "Device",
+    "name": "R",
+    "value": "100k",
+    "nets": {
+      "1": "BUZZER_BASE",
+      "2": "GND"
+    },
+    "sch": [
+      215,
+      450
+    ],
+    "pcb": [
+      86,
+      100,
+      0
+    ],
+    "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "section": "BUZZER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "00dacfc8-a3c5-5457-993f-58fba9b40845",
+    "key": "Device__R"
+  },
+  {
+    "ref": "Q2",
+    "lib": "Transistor_BJT",
+    "name": "Q_NPN_CBE",
+    "value": "P2N2222AG",
+    "nets": {
+      "1": "BUZZER_LOW",
+      "2": "BUZZER_BASE",
+      "3": "GND"
+    },
+    "sch": [
+      295,
+      450
+    ],
+    "pcb": [
+      96,
+      94,
+      90
+    ],
+    "fp": "Package_TO_SOT_THT:TO-92_Inline_Wide",
+    "section": "BUZZER",
+    "dnp": false,
+    "notes": "Candidate onsemi P2N2222AG C1 B2 E3, not arbitrary 2N2222 substitute. Proposed load <=20mA, verify actual buzzer before fitting link.",
+    "uuid": "3310acab-822b-5aa5-846c-409bccb77b8f",
+    "key": "Transistor_BJT__Q_NPN_CBE"
+  },
+  {
+    "ref": "J13",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "BUZZER HARNESS",
+    "nets": {
+      "1": "BUZZER_VCC",
+      "2": "BUZZER_LOW"
+    },
+    "sch": [
+      375,
+      450
+    ],
+    "pcb": [
+      91,
+      103,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "BUZZER",
+    "dnp": false,
+    "notes": "",
+    "uuid": "db03bb93-c026-57d2-8af7-eb83e36a778a",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "JP8",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "BUZZER 5V - OPEN",
+    "nets": {
+      "1": "5V_SYS",
+      "2": "BUZZER_VCC"
+    },
+    "sch": [
+      455,
+      450
+    ],
+    "pcb": [
+      101,
+      106,
+      0
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "BUZZER",
+    "dnp": true,
+    "notes": "",
+    "uuid": "1b5f4f50-24a7-5f23-9e59-6d1f2e194858",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "D4",
+    "lib": "Device",
+    "name": "D",
+    "value": "1N4007",
+    "nets": {
+      "1": "BUZZER_VCC",
+      "2": "BUZZER_LOW"
+    },
+    "sch": [
+      535,
+      450
+    ],
+    "pcb": [
+      102,
+      85,
+      90
+    ],
+    "fp": "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",
+    "section": "BUZZER",
+    "dnp": false,
+    "notes": "Flyback cathode pin1 to + buzzer supply. Validate acoustic behavior for passive buzzer.",
+    "uuid": "d5344167-88ed-53fd-a4c6-945381f00cd6",
+    "key": "Device__D"
+  },
+  {
+    "ref": "J14",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x03",
+    "value": "TO BLUE PILL SWD CABLE",
+    "nets": {
+      "1": "SWDIO_PA13",
+      "2": "SWCLK_PA14",
+      "3": "GND"
+    },
+    "sch": [
+      615,
+      450
+    ],
+    "pcb": [
+      79,
+      22,
+      90
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "section": "PROGRAMMING",
+    "dnp": false,
+    "notes": "Short cable to existing separate Blue Pill SWD header. Carrier order is NOT Blue Pill 4-pin order. Do not wire its 3.3V power pin.",
+    "uuid": "fcd639da-3a06-516e-ba4a-574e87306802",
+    "key": "Connector_Generic__Conn_01x03"
+  },
+  {
+    "ref": "J15",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x04",
+    "value": "STLINK SIGNALS ONLY",
+    "nets": {
+      "1": "SWDIO_PA13",
+      "2": "SWCLK_PA14",
+      "3": "GND",
+      "4": "NRST"
+    },
+    "sch": [
+      695,
+      450
+    ],
+    "pcb": [
+      90,
+      22,
+      90
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "section": "PROGRAMMING",
+    "dnp": false,
+    "notes": "No programmer power. Power target externally before connecting signals. Identify debugger model.",
+    "uuid": "f83cbfe0-ebbd-5edb-ac39-d6e2165d572e",
+    "key": "Connector_Generic__Conn_01x04"
+  },
+  {
+    "ref": "J16",
+    "lib": "Connector_Generic",
+    "name": "Conn_01x02",
+    "value": "VTREF SENSE ONLY",
+    "nets": {
+      "1": "3V3_BP",
+      "2": "GND"
+    },
+    "sch": [
+      55,
+      530
+    ],
+    "pcb": [
+      105,
+      22,
+      90
+    ],
+    "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "section": "PROGRAMMING",
+    "dnp": true,
+    "notes": "For verified genuine debugger VTref input only. Never connect clone 3.3V output. Leave unpopulated by default.",
+    "uuid": "b3591a5a-d503-51bb-bd9a-dc87b45557ba",
+    "key": "Connector_Generic__Conn_01x02"
+  },
+  {
+    "ref": "TP1",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "GND",
+    "nets": {
+      "1": "GND"
+    },
+    "sch": [
+      135,
+      530
+    ],
+    "pcb": [
+      32,
+      120,
+      0
+    ],
+    "fp": "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm",
+    "section": "TEST",
+    "dnp": false,
+    "notes": "",
+    "uuid": "cd24116c-1617-575f-a8ab-84d66ba6172e",
+    "key": "Connector__TestPoint"
+  },
+  {
+    "ref": "TP2",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "5V_PROT",
+    "nets": {
+      "1": "5V_PROT"
+    },
+    "sch": [
+      215,
+      530
+    ],
+    "pcb": [
+      42,
+      120,
+      0
+    ],
+    "fp": "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm",
+    "section": "TEST",
+    "dnp": false,
+    "notes": "",
+    "uuid": "8bd4dc6f-42c0-54e5-ad98-cd39279b1c89",
+    "key": "Connector__TestPoint"
+  },
+  {
+    "ref": "TP3",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "3V3_AUX",
+    "nets": {
+      "1": "3V3_AUX"
+    },
+    "sch": [
+      295,
+      530
+    ],
+    "pcb": [
+      55,
+      120,
+      0
+    ],
+    "fp": "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm",
+    "section": "TEST",
+    "dnp": false,
+    "notes": "",
+    "uuid": "df730cb8-bf0f-5712-b406-410af99e5b65",
+    "key": "Connector__TestPoint"
+  },
+  {
+    "ref": "TP4",
+    "lib": "Connector",
+    "name": "TestPoint",
+    "value": "3V3_BP",
+    "nets": {
+      "1": "3V3_BP"
+    },
+    "sch": [
+      375,
+      530
+    ],
+    "pcb": [
+      68,
+      120,
+      0
+    ],
+    "fp": "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm",
+    "section": "TEST",
+    "dnp": false,
+    "notes": "",
+    "uuid": "a26e8ca7-8641-5b79-8889-7af5c73206e3",
+    "key": "Connector__TestPoint"
+  },
+  {
+    "ref": "H1",
+    "lib": "Mechanical",
+    "name": "MountingHole",
+    "value": "M3 3.2mm",
+    "nets": {},
+    "sch": [
+      455,
+      530
+    ],
+    "pcb": [
+      25,
+      20,
+      0
+    ],
+    "fp": "MountingHole:MountingHole_3.2mm_M3",
+    "section": "MECHANICAL",
+    "dnp": false,
+    "notes": "",
+    "uuid": "cdad11bf-5c70-50b1-8c1f-edcb857db0ac",
+    "key": "Mechanical__MountingHole"
+  },
+  {
+    "ref": "H2",
+    "lib": "Mechanical",
+    "name": "MountingHole",
+    "value": "M3 3.2mm",
+    "nets": {},
+    "sch": [
+      535,
+      530
+    ],
+    "pcb": [
+      125,
+      20,
+      0
+    ],
+    "fp": "MountingHole:MountingHole_3.2mm_M3",
+    "section": "MECHANICAL",
+    "dnp": false,
+    "notes": "",
+    "uuid": "b8a3dcab-f2d5-56b8-9dc3-7a1812348fc2",
+    "key": "Mechanical__MountingHole"
+  },
+  {
+    "ref": "H3",
+    "lib": "Mechanical",
+    "name": "MountingHole",
+    "value": "M3 3.2mm",
+    "nets": {},
+    "sch": [
+      615,
+      530
+    ],
+    "pcb": [
+      25,
+      120,
+      0
+    ],
+    "fp": "MountingHole:MountingHole_3.2mm_M3",
+    "section": "MECHANICAL",
+    "dnp": false,
+    "notes": "",
+    "uuid": "b20a6fbf-6f17-50b4-b829-0085e3ba8772",
+    "key": "Mechanical__MountingHole"
+  },
+  {
+    "ref": "H4",
+    "lib": "Mechanical",
+    "name": "MountingHole",
+    "value": "M3 3.2mm",
+    "nets": {},
+    "sch": [
+      695,
+      530
+    ],
+    "pcb": [
+      125,
+      120,
+      0
+    ],
+    "fp": "MountingHole:MountingHole_3.2mm_M3",
+    "section": "MECHANICAL",
+    "dnp": false,
+    "notes": "",
+    "uuid": "38ec6393-4090-54a3-98ff-4cba744a17de",
+    "key": "Mechanical__MountingHole"
+  },
+  {
+    "ref": "#FLG01",
+    "lib": "power",
+    "name": "PWR_FLAG",
+    "value": "PWR_FLAG",
+    "nets": {
+      "1": "5V_SYS"
+    },
+    "sch": [
+      755,
+      45
+    ],
+    "pcb": [
+      0,
+      0,
+      0
+    ],
+    "fp": "",
+    "section": "ERC",
+    "dnp": false,
+    "notes": "Source declaration for ERC only, not hardware validation.",
+    "uuid": "3fdbe218-126c-583f-9a58-9f72fe497f30",
+    "key": "power__PWR_FLAG"
+  },
+  {
+    "ref": "#FLG02",
+    "lib": "power",
+    "name": "PWR_FLAG",
+    "value": "PWR_FLAG",
+    "nets": {
+      "1": "GND"
+    },
+    "sch": [
+      755,
+      85
+    ],
+    "pcb": [
+      0,
+      0,
+      0
+    ],
+    "fp": "",
+    "section": "ERC",
+    "dnp": false,
+    "notes": "Source declaration for ERC only, not hardware validation.",
+    "uuid": "86c632b8-7ae5-5e3e-96d2-a3ca4bc7f856",
+    "key": "power__PWR_FLAG"
+  }
+]

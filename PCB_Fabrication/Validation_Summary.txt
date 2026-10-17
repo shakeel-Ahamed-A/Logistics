@@ -1,0 +1,55 @@
+PROVISIONAL P0 - CAD VALIDATION ONLY - NOT APPROVED FOR FABRICATION
+Validation date: 17 October 2026. KiCad CLI 10.0.7.
+
+Saved native project, schematic, PCB and custom rules preserved byte-for-byte.
+SHA-256 before/after: Evidence/native_preservation_audit.json.
+
+Actual executed checks:
+  sch erc --exit-code-violations
+  pcb drc --schematic-parity --all-track-errors --refill-zones
+          --severity-all --exit-code-violations
+ERC: 0 errors / 0 warnings.
+DRC: 0 violations / 0 unconnected pads / 0 schematic parity issues.
+Zone refill was in memory; no --save-board used.
+Exact commands, exit codes and stdout/stderr: Evidence/continuation_cli_log.json.
+CLI registry-write warnings occurred in this restricted environment; exports and
+checks exited successfully. No claim is made of native GUI visual inspection.
+
+Read-only independent audits:
+- 153 connected physical pads match fresh KiCad XML netlist and intended map.
+- 63 footprint pad geometries match the local KiCad library, including numbering,
+  pad shape/size, relative position/orientation and drill dimensions.
+- 171 symbol pin coordinates match embedded library geometry and actual wire
+  endpoints or explicit no-connect markers. ERC power flags are schematic-only.
+- BOM values/footprint IDs match schematic and PCB; pin CSV net entries match.
+- AUX and Blue Pill 3.3V outputs are separate; JP1 supplies MCU and AUX together.
+- Q1/U1 numbered power assignments, MPU AD0 and SW420 PB12 match planned nets.
+- J15 debugger signal header has no supply pin. J16 remains unpopulated.
+- Routing: 377 track segments, 12 vias; 225 segments at 0.8mm, 152 at 0.4mm.
+- Both GND zones filled. Four 3.2mm NPTH mounting holes at 100mm centre spacing.
+- Board centreline outline: 110 x 110mm. Graphic bounding box includes 0.05mm
+  line width and is not the manufactured outline dimension.
+
+Existing ignored ERC checks (not changed during continuation):
+  Global label only appears once; four connection points joined;
+  SPICE model issue; assigned footprint does not match footprint filters.
+Existing ignored DRC checks (not changed during continuation):
+  Missing courtyard; track endpoint not centered on via; tuning profile track
+  geometries; footprint/filter mismatch; footprint component type/pad mismatch.
+Project DRC exclusions list is empty. Ignored checks are not counted as passes.
+Pad geometry comparison supplements, but does not replace, physical fit checks.
+
+Fresh native schematic PDF, top/bottom copper views, 3D render and assembly
+layout exported successfully. PDF pages and image outputs visually inspected.
+Assembly preserves existing explanatory pages; their original 16 October date
+remains. Separate 1:1 socket coupon is the same verified nominal geometry.
+3D contains generic carrier parts, not the real Blue Pill or sensors. Generic
+LED model colours do not establish the green/blue/red assembly colours.
+
+No manufacturing files exported. No Gerber inspection performed. No hardware
+tests, voltage measurements, sensor recovery or physical fit approval claimed.
+Unknown modules are represented by carrier-defined harness pinouts. Real module
+ends must be separately mapped and secured. Open VCC links do not isolate signal
+pins: do not connect unpowered modules or hot-plug. Actual power-up/off behavior,
+GPIO limits, source and regulator ratings, SD interface and thermal performance
+remain release gates. See FABRICATION_STATUS.md and Verification_Required.csv.

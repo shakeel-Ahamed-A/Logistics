@@ -1,0 +1,24 @@
+2026-10-16 22:41:47.869 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-16 22:41:48.161 INFO   Hardware: 12 CPU cores, 358 CPU score, 3072 MB RAM
+2026-10-16 22:41:48.165 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-10-16 22:41:49.324 WARN   Could not create HttpClient for VersionChecker: java.io.IOException: Unable to establish loopback connection
+2026-10-16 22:41:49.605 INFO   [288A62\BCA422] Loading board file 'SmartLogistics.dsn'...
+2026-10-16 22:41:49.725 INFO   [288A62\BCA422] Job '288A62\BCA422' started at 2026-10-16T17:11:49.724921900Z.
+2026-10-16 22:41:49.856 INFO   [288A62\BCA422] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=2.
+2026-10-16 22:41:49.942 INFO   [288A62\BCA422] Fanout stage started on board '6e91910191f93fa9e974cd9bee5b526a' with 3 of 3 SMD pins needing fanout (0 already connected, 0 netless).
+2026-10-16 22:41:50.232 INFO   [288A62\BCA422] Fanout pass #1 on board 'bf3e0b0302e0d835b76c7ec0f36e856d' completed in 0.24 seconds with 3 SMD pins fanouted, 0 not routed, 0 insert errors, +1 extra via (0 SMD pins still to check in pass, ripup costs=100).
+2026-10-16 22:41:50.292 INFO   [288A62\BCA422] Fanout pass #2 on board 'bf3e0b0302e0d835b76c7ec0f36e856d' completed in 0.04 seconds with 0 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-10-16 22:41:50.296 INFO   [288A62\BCA422] Fanout stage completed: started with 3 total SMD pins, completed in 0.35 seconds, escaped pins: 3/3 (100.0%), using 0.36 total CPU seconds, 0.06 GB total allocated, and 103.5 MB peak heap usage.
+2026-10-16 22:41:50.326 INFO   [288A62\BCA422] Auto-routing stage started on board 'bf3e0b0302e0d835b76c7ec0f36e856d' with baseline score 11.59 for 113 unrouted items.
+2026-10-16 22:41:58.669 INFO   [288A62\BCA422] Auto-routing pass #1 on board 'bf3e0b0302e0d835b76c7ec0f36e856d' was completed in 8.30 seconds with score 930.43 (6 unrouted and 0 violations), using 7.64 CPU seconds and the job allocated 1.93 GB of memory so far.
+2026-10-16 22:42:00.932 INFO   [288A62\BCA422] Auto-routing pass #2 on board 'ba674c363f19691ebced2e516e20a6a8' was completed in 2.23 seconds with score 1000.00 (0 unrouted and 0 violations), using 10.58 CPU seconds and the job allocated 3.08 GB of memory so far.
+2026-10-16 22:42:00.995 INFO   [288A62\BCA422] Auto-routing pass #3 on board '0aaba26923d92a81928f5ab9fab78f15' was completed in 0.01 seconds with score 1000.00 (0 unrouted and 0 violations), using 10.58 CPU seconds and the job allocated 3.08 GB of memory so far.
+2026-10-16 22:42:01.053 INFO   [288A62\BCA422] Auto-routing stage completed: started with 115 unrouted nets, completed in 11.18 seconds, final score: 1000.00 (0 unrouted and 0 violations), using 10.58 total CPU seconds, 3.08 GB total allocated, and 101.1 MB peak heap usage.
+2026-10-16 22:42:01.230 INFO   [288A62\BCA422] Optimization stage started on board '0aaba26923d92a81928f5ab9fab78f15'. Baseline router score: 1000.00, optimizer score: 723.37, incomplete connections: 0, clearance violations: 0.
+2026-10-16 22:42:11.097 INFO   [288A62\BCA422] Optimizer pass #1 on board 'c4237be1cdf40c8239159844cad46a87' was completed in 9.77 seconds with the score of 730.77 (0 unrouted and 0 violations).
+2026-10-16 22:42:11.115 INFO   [288A62\BCA422] Optimizer pass #1: optimizer score 723.37 -> 730.77 (IMPROVED, 1.0225%), router score: 1000.00, incomplete connections: 0, clearance violations: 0.
+2026-10-16 22:42:11.115 INFO   [288A62\BCA422] Stopping optimizer because the improvement in this pass (1.0225%) is below the threshold (5.00%).
+2026-10-16 22:42:11.140 INFO   [288A62\BCA422] Optimization stage completed:. Baseline router score: 1000.00, baseline optimizer score: 723.37, final router score: 1000.00, final optimizer score: 730.77, completed in 9.90 seconds, using 16.97 total CPU seconds, 5.50 GB total allocated, and 200.5 MB peak heap usage.
+2026-10-16 22:42:11.154 INFO   [288A62\BCA422] Job '288A62\BCA422' finished with state: COMPLETED (elapsed: 21.43 seconds, finished at UTC: 2026-10-16T17:12:11.153078200Z).
+2026-10-16 22:42:11.172 INFO   Saving output file 'D:\Logistics\PCB_Fabrication\Evidence\SmartLogistics.ses' (SES)...
+2026-10-16 22:42:11.176 INFO   Successfully saved output file 'D:\Logistics\PCB_Fabrication\Evidence\SmartLogistics.ses' (30460 bytes).

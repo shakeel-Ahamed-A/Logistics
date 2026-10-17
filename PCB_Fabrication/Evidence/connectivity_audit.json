@@ -1,0 +1,111 @@
+{
+  "checked_at_local": "2026-10-17T07:44:57.467145",
+  "matched_connected_pads": 153,
+  "mismatches": [],
+  "footprints": 63,
+  "footprint_pad_geometry_mismatches": [],
+  "track_segments": 377,
+  "vias": 12,
+  "track_width_counts_mm": {
+    "0.8": 225,
+    "0.4": 152
+  },
+  "total_track_lengths_by_net_mm": {
+    "/3V3_AUX": 200.4993740176203,
+    "/SW420_VCC": 17.51210244842766,
+    "/REED_PA1": 66.55307132347585,
+    "/SD_CS_PA4": 56.71183482342724,
+    "/SD_SCK_PA5": 27.59643286774617,
+    "/SD_MISO_PA6": 27.59643286774617,
+    "/SD_MOSI_PA7": 27.59643286774617,
+    "/BUZZER_PB0": 39.13808245615285,
+    "/GREEN_PB1": 48.85930981429905,
+    "/BLUE_PB10": 35.39964707409354,
+    "/RED_PB11": 28.623785543452996,
+    "/NRST": 59.89949543974312,
+    "/3V3_BP": 204.5666603326983,
+    "/GND": 496.85362999179466,
+    "/5V_SYS": 209.16933860775757,
+    "/RTC_VCC": 17.51210244842766,
+    "/LED_BLUE_A": 19.352846599203165,
+    "/DHT_VCC": 24.754743135546946,
+    "/DHT_PB5": 83.69591667915222,
+    "/BUZZER_BASE": 17.2616060505571,
+    "/GPS_VCC": 19.340529573173853,
+    "/GPS_TX_PA10": 63.78051983419471,
+    "/GPS_RX_PA9": 98.10426754275299,
+    "/5V_PROT": 79.70133880023718,
+    "/BUZZER_VCC": 58.53543584437652,
+    "/BUZZER_LOW": 38.04997413831241,
+    "/SD_VCC": 31.82581094741242,
+    "/5V_IN": 13.486441628009452,
+    "/I2C_SCL_PB6": 73.03988098917323,
+    "/MPU_VCC": 27.406803743153546,
+    "/I2C_SDA_PB7": 68.94347927709573,
+    "/BUTTON2_PB14": 83.55243967611717,
+    "/LED_GREEN_A": 18.21210244842766,
+    "/LED_RED_A": 19.355663251427302,
+    "/BUTTON1_PB13": 99.2442277366155,
+    "/SWDIO_PA13": 12.192272317934716,
+    "/SWCLK_PA14": 12.148365680323169,
+    "/SW420_PB12": 35.381285681488556
+  },
+  "power_and_mapping_checks": {
+    "separate_3v3_outputs": true,
+    "master_feeds_mcu_and_aux": true,
+    "reverse_fet_pinout": true,
+    "aux_regulator_pinout": true,
+    "sw420_pb12": true,
+    "mpu_ad0_vcc": true,
+    "stlink_signal_header_no_power": true
+  },
+  "copper_layers": 2,
+  "nominal_thickness_mm": 1.6,
+  "socket_row_spacing_mm": 15.24,
+  "socket_pitch_mm": 2.54,
+  "limits": "Carrier CAD only. Actual module internals, part procurement and mechanical fit remain unverified.",
+  "edge_graphic_ink_bounds_mm": [
+    110.05,
+    110.05
+  ],
+  "outline_centreline_mm": [
+    110.0,
+    110.0
+  ],
+  "mounting_hole_centres_mm": {
+    "H1": [
+      25.0,
+      20.0
+    ],
+    "H2": [
+      125.0,
+      20.0
+    ],
+    "H3": [
+      25.0,
+      120.0
+    ],
+    "H4": [
+      125.0,
+      120.0
+    ]
+  },
+  "zones": [
+    {
+      "net": "/GND",
+      "layer": "F.Cu",
+      "filled": true
+    },
+    {
+      "net": "/GND",
+      "layer": "B.Cu",
+      "filled": true
+    }
+  ],
+  "csv_audit": {
+    "bom_rows": 63,
+    "pin_mapping_rows": 171,
+    "physical_connected_pads": 153,
+    "notes": "ERC-only power flags omitted from physical netlist comparison; all 171 symbol pin coordinates independently checked."
+  }
+}
